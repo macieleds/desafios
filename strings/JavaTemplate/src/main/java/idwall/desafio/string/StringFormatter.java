@@ -11,7 +11,7 @@ public abstract class StringFormatter {
 
     public StringFormatter() {
         this.texto = texto;
-    	this.limit = 40;
+    	this.caracteresPorLinha = caracteresPorLinha;
     	this.justificar = justificar;
         
     }
