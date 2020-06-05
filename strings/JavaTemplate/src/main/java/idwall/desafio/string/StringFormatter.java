@@ -5,8 +5,8 @@ package idwall.desafio.string;
  */
 public abstract class StringFormatter {
 
-	public String texto;
-	private int limit = 40;
+	private String texto;
+	private int caracteresPorLinha;
 	private boolean justificar;
 
     public StringFormatter() {
