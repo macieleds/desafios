@@ -1,14 +1,19 @@
 package idwall.desafio.string;
 
 /**
- * Created by Rodrigo Catão Araujo on 06/02/2018.
+ * Created by Edison Maciel on 04/06/2020.
  */
 public abstract class StringFormatter {
 
-    private Integer limit;
+	public String texto;
+	private int limit = 40;
+	private boolean justificar;
 
     public StringFormatter() {
-        this.limit = 40;
+        this.texto = texto;
+    	this.limit = 40;
+    	this.justificar = justificar;
+        
     }
 
     /**
@@ -17,5 +22,9 @@ public abstract class StringFormatter {
      * @param text
      * @return
      */
-    public abstract String format(String text);
+    
+	public String justificarTexto(String texto, int caracteresPorLinha, boolean justificar) {
+		return texto;
+		
+	}
 }
